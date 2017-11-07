@@ -2,3 +2,4 @@ language: python
 rvm:
  - 3.5
 script: make test
+
