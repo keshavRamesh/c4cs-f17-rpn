@@ -13,3 +13,4 @@ class TestFunctions(unittest.TestCase):
 	def test_power(self):
 		result = rpn.calculate('4 2 ^')
 		self.assertEqual(16,result)
+
