@@ -8,7 +8,7 @@ def add(a,b):
 ops = {
 	'+':operator.add,
 	'-':operator.sub,
-	'^':operator.pow
+	'^':operator.pow,
 	'*':operator.mul
 }
 
