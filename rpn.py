@@ -6,8 +6,8 @@ def add(a,b):
 	return a+b
 def somefunction(a,b,c):
 	return a*b*c
-def whatever:
-	return "whatever"
+def whatever():
+	return
 
 ops = {
 	'+':operator.add,
