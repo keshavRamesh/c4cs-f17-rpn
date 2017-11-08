@@ -4,6 +4,10 @@ import operator
 
 def add(a,b):
 	return a+b
+def somefunction(a,b,c):
+	return a*b*c
+def whatever:
+	return "whatever"
 
 ops = {
 	'+':operator.add,
