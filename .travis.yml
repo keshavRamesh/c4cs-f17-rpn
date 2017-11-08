@@ -1,5 +1,13 @@
 language: python
 rvm:
  - 3.5
-script: make test
 
+install:  
+  - pip install python-coveralls
+  - pip install coverage       # Add me to install coverage.py
+  - pip install nose           # Add me to install nose
+script:  
+  - make test
+  - nosetests --with-coverage # Add me to run nose with coverage 
+after_success:  
+  - coveralls
