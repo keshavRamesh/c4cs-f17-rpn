@@ -1,6 +1,7 @@
 #~/usr/bin/env python3
 
 import operator
+import random
 
 def add(a,b):
 	return a+b
@@ -13,7 +14,8 @@ ops = {
 	'+':operator.add,
 	'-':operator.sub,
 	'^':operator.pow,
-	'*':operator.mul
+	'*':operator.mul, 
+	'R':random.randint
 }
 
 def calculate(myarg):

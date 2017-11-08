@@ -13,4 +13,10 @@ class TestFunctions(unittest.TestCase):
 	def test_power(self):
 		result = rpn.calculate('4 2 ^')
 		self.assertEqual(16,result)
-
+	def test_random(self):
+		result = rpn.calculate('1 100 R')
+		if result <= 100 and result >= 1:
+			self.assertEqual(1,1)
+		else:
+			self.assertEqual(1,0)
+		
